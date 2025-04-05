@@ -79,14 +79,6 @@
     "comments": false,
     "strings": true
   },
-  "mcp": {
-    "servers": {
-      "console-ninja": {
-        "command": "npx",
-        "args": ["-y", "-c", "node ~/.console-ninja/mcp/"]
-      }
-    }
-  },
   "editor.suggest.snippetsPreventQuickSuggestions": true,
   "editor.suggest.showSnippets": true,
   "editor.suggest.showKeywords": true,
