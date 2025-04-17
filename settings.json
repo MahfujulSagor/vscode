@@ -1,7 +1,6 @@
 {
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.showTabs": "multiple",
-  "workbench.statusBar.visible": false,
   "window.titleBarStyle": "custom",
   "workbench.tips.enabled": false,
   "breadcrumbs.enabled": false,
@@ -26,7 +25,7 @@
   "editor.lightbulb.enabled": "off",
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
-  "editor.lineNumbers": "on",
+  "editor.lineNumbers": "relative",
   "editor.detectIndentation": false,
   "editor.guides.indentation": true,
   "editor.renderWhitespace": "none",
@@ -107,8 +106,19 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "gitlens.gitCommands.search.showResultsInSideBar": false,
-  "workbench.colorTheme": "GitHub Dark Default",
-  "workbench.layoutControl.enabled": false,
   "workbench.navigationControl.enabled": false,
-  "window.commandCenter": false
+  "workbench.activityBar.location": "hidden",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.menuBarVisibility": "compact",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "terminal.integrated.env.windows": {},
+  "workbench.statusBar.visible": false,
+  "workbench.colorTheme": "GitHub Dark Default",
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
